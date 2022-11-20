@@ -12,8 +12,8 @@
 
         data() {
             return {
-                center: [36.51, 48.12],
-                zoom: 2.1,
+                center: [68.78, 38.55],
+                zoom: 4.1,
                 windowWidth: window.innerWidth,
                 users: usersData,
             };
@@ -73,7 +73,7 @@
                     setPopup(
                         new mapboxgl.Popup({ offset: 25, closeButton: false, }) // add popups
                             .setHTML(
-                                `<h4>${user.name}</h4><p>${user.status}</p>`
+                                `<h5>${user.name}</h5><p>${user.status}</p>`
                             )
                     ).addTo(this.map);
 
@@ -101,7 +101,7 @@
     }
 
     .marker {
-        background-color: gold;
+        background-color: black;
         -webkit-mask-image: url("../assets/account.svg");
         mask-image: url("../assets/account.svg");
         /*background-image: url("../assets/person.svg");*/
