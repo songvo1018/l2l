@@ -12,10 +12,13 @@
             <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link text-dark active" v-on:click.self="switchToMap()">Map</a>
+                        <a class="nav-link text-dark active" href="http://t.me/fzf_team_bot">@telegram</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-dark" v-on:click.self="switchToAbout()">About us</a>
+                        <a class="nav-link text-dark active" v-on:click.self="switchToMap()" href="#">Map</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" v-on:click.self="switchToAbout()" href="#">About us</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-dark">Sign up</a>
