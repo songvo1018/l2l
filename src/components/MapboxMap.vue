@@ -6,18 +6,27 @@
 
 <script>
     import mapboxgl from "mapbox-gl";
-    import usersData from "../assets/users.json";
 
     export default {
-
         data() {
             return {
                 center: [68.78, 38.55],
                 zoom: 4.1,
                 windowWidth: window.innerWidth,
-                users: usersData,
+                usersToShow: this.users,
             };
         },
+      props: {
+        users: {} // передаем снаружи из родительского компонента
+      },
+      watch: {
+          users: { // когда в родительском компоненте изменится значение пропса - обновляем стейт и\или обновляем маркеры
+            handler(newValue) {
+              this.usersToShow = newValue
+              this.createMap()
+            }
+          }
+      },
         mounted() {
             // create the map after the component is mounted
             this.createMap();
