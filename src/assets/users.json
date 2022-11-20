@@ -4,7 +4,7 @@
     "name": "Leanne Graham",
     "username": "Bret",
     "email": "Sincere@april.biz",
-    "coordinates": [39, 42],
+    "coordinates": [68.78, 38.55],
     "status": "Volunteer",
     "address": {
       "street": "Kulas Light",
@@ -30,7 +30,7 @@
     "username": "Antonette",
     "status": "Volunteer",
     "email": "Shanna@melissa.tv",
-    "coordinates": [28, 30],
+    "coordinates": [69.78, 37.51],
     "address": {
       "street": "Victor Plains",
       "suite": "Suite 879",
@@ -51,7 +51,7 @@
   },
   {
     "id": 3,
-    "coordinates": [36, 40],
+    "coordinates": [67.78, 37.55],
     "name": "Clementine Bauch",
     "status": "Lawyer",
     "username": "Samantha",
@@ -76,7 +76,7 @@
   },
   {
     "id": 4,
-    "coordinates": [50, 40],
+    "coordinates": [69.78, 37.55],
     "name": "Patricia Lebsack",
     "username": "Karianne",
     "status": "Lawyer",
@@ -101,7 +101,7 @@
   },
   {
     "id": 5,
-    "coordinates": [41, 41],
+    "coordinates": [69.2, 41.29],
     "status": "Teacher",
     "name": "Chelsey Dietrich",
     "username": "Kamren",
@@ -126,7 +126,7 @@
   },
   {
     "id": 6,
-    "coordinates": [43, 40],
+    "coordinates": [69.5, 42.3],
     "name": "Mrs. Dennis Schulist",
     "status": "Doctor",
     "username": "Leopoldo_Corkery",
